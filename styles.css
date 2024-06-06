@@ -3,17 +3,22 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: Arial, sans-serif;
+    background-color : black
 }
+    
 
 h1 {
     margin-bottom: 20px;
+    color: rgb(205, 169, 50);
+    
 }
 
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    gap: 20px;
+    
 }
 
 .cell {
@@ -23,6 +28,8 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    border: 1px solid #000;
+    border: 5px solid #bebebe;
     cursor: pointer;
+    color : whitesmoke
+    
 }
