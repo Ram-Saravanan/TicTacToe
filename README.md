@@ -1,1 +1,1 @@
-https://tictactoeram.netlify.app/
+A simple tic-tac-toe game
